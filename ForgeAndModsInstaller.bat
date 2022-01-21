@@ -7,8 +7,6 @@ wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/Aut
 move "AutoGG.jar" %appdata%/.minecraft/mods/AutoGG.jar
 wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/BetterChat.jar
 move "BetterChat.jar" %appdata%/.minecraft/mods/BetterChat.jar
-wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/BetterFPS.jar
-move "BetterFPS.jar" %appdata%/.minecraft/mods/BetterFPS.jar
 wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/DungeonRooms.jar
 move "DungeonRooms.jar" %appdata%/.minecraft/mods/DungeonRooms.jar
 wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/LobbySounds.jar
