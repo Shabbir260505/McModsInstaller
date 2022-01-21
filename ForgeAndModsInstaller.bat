@@ -1,4 +1,26 @@
 @echo off
+echo Creating Directories
+mkdir "%appdata%/.minecraft/mods"
 echo Downloading Files! Please Wait :)
-wget -P .\temp https://github.com/Shabbir260505/McModsInstaller/blob/main/files/mods/Skytils.jar?raw=true
-java -jar .\files\forgeinstaller\forge-1.8.9-11.15.1.2318-1.8.9-installer.jar
+wget -P .\files\forgeinstaller\ https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/ForgeInstaller.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/AutoGG.jar
+move "AutoGG.jar" %appdata%/.minecraft/mods/AutoGG.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/BetterChat.jar
+move "BetterChat.jar" %appdata%/.minecraft/mods/BetterChat.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/BetterFPS.jar
+move "BetterFPS.jar" %appdata%/.minecraft/mods/BetterFPS.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/DungeonRooms.jar
+move "DungeonRooms.jar" %appdata%/.minecraft/mods/DungeonRooms.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/LobbySounds.jar
+move "LobbySounds.jar" %appdata%/.minecraft/mods/LobbySounds.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/NotEnoughCoins.jar
+move "NotEnoughCoins.jar" %appdata%/.minecraft/mods/NotEnoughCoins.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/NotEnoughUpdates.jar
+move "NotEnoughUpdates.jar" %appdata%/.minecraft/mods/NotEnoughUpdates.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/OptiFine.jar
+move "OptiFine.jar" %appdata%/.minecraft/mods/OptiFine.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/ScrollableTooltips.jar
+move "ScrollableTooltips.jar" %appdata%/.minecraft/mods/ScrollableTooltips.jar
+wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/Skytils.jar
+move "Skytils.jar" %appdata%/.minecraft/mods/Skytils.jar
+java -jar .\files\forgeinstaller\ForgeInstaller.jar
