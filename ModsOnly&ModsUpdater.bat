@@ -7,8 +7,6 @@ ren "%appdata%/.minecraft/mods" modsbackup
 echo Creating Directories
 mkdir "%appdata%/.minecraft/mods"
 echo Downloading Files! Please Wait :)
-echo Downloading Forge
-wget -P .\files\forgeinstaller\ https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/ForgeInstaller.jar -q
 echo Downloading AutoGG
 wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/AutoGG.jar -q
 move "AutoGG.jar" %appdata%/.minecraft/mods/AutoGG.jar
@@ -42,7 +40,5 @@ move "Patcher.jar" %appdata%/.minecraft/mods/Patcher.jar
 echo Downloading DankerSkyblockMod
 wget https://github.com/Shabbir260505/McModsInstaller/releases/download/Mods/DankerSkyblockMod.jar -q
 move "DankerSkyblockMod.jar" %appdata%/.minecraft/mods/DankerSkyblockMod.jar
-echo Installing Forge Please Click On Install Client!
-java -jar .\files\forgeinstaller\ForgeInstaller.jar
 echo Operation Done :) 
 pause

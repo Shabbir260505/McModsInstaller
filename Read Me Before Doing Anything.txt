@@ -1,0 +1,10 @@
+HEY
+This Script Auto Installs Best Mods For Skyblock (1.8.9) Forge!
+If u have forge 1.8.9 already installed, Please Double Click On "ModsOnly/ModsUpdater.bat"
+Or If u dont have forge 1.8.9 installer, click on "ForgeAndModsInstaller.bat"
+To Update Your Mods to latest version, weekly run "ModsOnly/ModsUpdater.bat"
+After running the script all of ur old mods will be moved to new folder called 'modsbackup' in .minecraft folder.
+You can copy your old mods anytime back from that folder :)
+When clicking on .bat, if notepad opens, DO NOT EDIT ANYTHING, and close the notepad and run the .bat file as administrator using right click on file.
+Also wget.exe is necessary so do not delete it.
+If any problem occurs try contacting me :)
